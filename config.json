@@ -1,0 +1,33 @@
+{
+  "title": "Controle de Estoque",
+  "subtitle": "Gerencie produtos, quantidades e preços de uma pequena loja.",
+  "table": "produtos",
+  "icon": "📦",
+  "color": "#2563eb",
+  "fields": [
+    {
+      "name": "nome",
+      "label": "Nome do produto",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "categoria",
+      "label": "Categoria",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "quantidade",
+      "label": "Quantidade",
+      "type": "integer",
+      "required": true
+    },
+    {
+      "name": "preco",
+      "label": "Preço (R$)",
+      "type": "decimal",
+      "required": true
+    }
+  ]
+}
